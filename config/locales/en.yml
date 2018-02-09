@@ -32,7 +32,7 @@
 en:
   layouts:
     application:
-      apptitle: " | Ruby on Rails Tutorial Sample App"
+      apptitle: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home: 
       title: "Home"

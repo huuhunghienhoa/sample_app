@@ -55,6 +55,8 @@ en:
       title_news: "News"
       url_news : "http://news.railstutorial.org/"
   users:
+    index:
+      all_users: "All user"
     new:
       sign_up: "Sign up"
       p_content: "This will be a signup page for new users."
@@ -62,6 +64,24 @@ en:
       pass_confirm: "Confirmation"
     create:
       welcome: "Welcome to the Sample App!"
+    edit:
+      title: "Edit user"
+      btn_save: "Save changes"
+      h1: "Update your profile"
+      change: "Change"
+    update:
+      mess_success: "Profile updated"
+      mess_fail: "Updating information failed"
+    destroy:
+      mess_success: "User deleted"
+      mess_fail: "Deleting user failed"
+    logged_in_user:
+      mess_error: "Please log in."
+    correct_user:
+      mess_permission: "You do not have permission to edit other people's information"
+    user:
+      delete: "delete"
+      mess_confirm: "You sure?"
   static_pages:
     home: 
       title: "Home"

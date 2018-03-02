@@ -64,6 +64,7 @@ en:
       pass_confirm: "Confirmation"
     create:
       welcome: "Welcome to the Sample App!"
+      check_email: "Please check your email to activate your account."
     edit:
       title: "Edit user"
       btn_save: "Save changes"
@@ -122,3 +123,15 @@ en:
       remember_me: "Remember me on this computer"
     create:
       login_error: "Invalid email/password combination"
+      account_not_activated: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hi: "Hi"
+      body_email: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Activate"
+      subject_email: "Account activation"

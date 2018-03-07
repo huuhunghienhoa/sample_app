@@ -4,3 +4,4 @@ user:
   name_max_length: 50
   avatar_size: 80
   remember: 1
+  time_reset: 2

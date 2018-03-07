@@ -83,6 +83,8 @@ en:
     user:
       delete: "delete"
       mess_confirm: "You sure?"
+    show:
+      microposts: "Microposts"
   static_pages:
     home:
       title: "Home"
@@ -93,6 +95,7 @@ en:
       url_tut: "http://www.railstutorial.org/"
       sign_up: "Sign up now!"
       logo_alt: "rails logo"
+      feed: "Micropost Feed"
     about:
       title: "About"
       body: "This is the sample application for the tutorial."
@@ -115,6 +118,12 @@ en:
     error_messages:
       form_error: "The form contains"
       error: "error"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      my_profile: "view my profile"
+      micropost: "micropost"
   sessions:
     new:
       login: "Log in"
@@ -159,3 +168,16 @@ en:
       reset_password: "Password has been reset"
     check_expiration:
       expired_password: "Password reset has expired."
+  microposts:
+    create:
+      created: "Micropost created!"
+      fail : "Creating micropost was failed"
+    destroy:
+      deleted: "Micropost deleted"
+      fail: "Deleting micropost was failed"
+    micropost:
+      delete: "Delete"
+      confirm_delete: "You sure?"
+      ago: "ago"
+      posted: "Posted"
+      mess_limit_size: "should be less than 5MB"

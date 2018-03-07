@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.active.paginate page: params[:page]
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.newest.paginate page: params[:page]
+  end
 
   def new
     @user = User.new
@@ -55,14 +57,6 @@ class UsersController < ApplicationController
   def load_user
     @user = User.find_by id: params[:id]
     @user || render(file: "public/404.html", status: 404, layout: true)
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t "users.logged_in_user.mess_error"
-      redirect_to login_url
-    end
   end
 
   def correct_user

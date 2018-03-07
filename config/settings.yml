@@ -5,3 +5,7 @@ user:
   avatar_size: 80
   remember: 1
   time_reset: 2
+  avatar_size50: 50
+micropost:
+  max_length: 140
+  max_size: 5

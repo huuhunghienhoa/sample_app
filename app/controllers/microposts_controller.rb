@@ -9,7 +9,7 @@ class MicropostsController < ApplicationController
       redirect_to root_url
     else
       @feed_items = current_user.feed.paginate page: params[:page]
-      flash[:danger] = t ".fail"
+      flash.now[:danger] = t ".fail"
       render "static_pages/home"
     end
   end

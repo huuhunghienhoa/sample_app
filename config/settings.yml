@@ -3,9 +3,10 @@ user:
   password_min_length: 6
   name_max_length: 50
   avatar_size: 80
-  remember: 1
+  remember: "1"
   time_reset: 2
   avatar_size50: 50
+  avatar_size30: 30
 micropost:
   max_length: 140
   max_size: 5

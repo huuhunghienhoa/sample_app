@@ -85,6 +85,14 @@ en:
       mess_confirm: "You sure?"
     show:
       microposts: "Microposts"
+    follow:
+      follow: "Follow"
+      unfollow: "Unfollow"
+      following: "Following"
+      follower: "Followers"
+    show_follow:
+      view_profile: "View my profile"
+      microposts: "Microposts"
   static_pages:
     home:
       title: "Home"
